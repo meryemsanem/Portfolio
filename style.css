@@ -887,7 +887,12 @@
     display: none;
   }
 
-  .recent-works:after {
+  /* .desktop-vector {
+    width: 100%;
+    max-width: fit-content;
+  } */
+
+  /* .recent-works:after {
     margin-left: 350px;
     content: " ";
     height: 0.1px;
@@ -896,7 +901,7 @@
     position: absolute;
     background: #212121;
     margin-top: -25px;
-  }
+  } */
 
   .background-img {
     width: 45%;
@@ -908,7 +913,7 @@
     margin-top: 85px;
   }
 
-  .work-title {
+  /* .work-title {
     font-family: "Crete Round", serif;
     font-size: 40px;
     font-weight: 400;
@@ -919,5 +924,5 @@
     margin-left: 400px;
     display: flex;
     justify-content: center;
-  }
+  } */
 }
