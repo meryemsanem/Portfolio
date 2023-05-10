@@ -190,7 +190,7 @@
     width: 100%;
   }
 
-  .image {
+  .image1 {
     margin: 60px 24px 0 24px;
   }
 
@@ -757,6 +757,10 @@
   .text-line {
     display: none;
   }
+
+  .image2 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -907,11 +911,11 @@
     align-items: flex-end;
   }
 
-  .background-img {
+  .background-img1 {
     width: 40%;
     /* max-width: fit-content; */
   }
-  .image {
+  .image2 {
     margin-left: 141px;
     height: 448px;
     margin-top: 85px;
@@ -973,5 +977,8 @@
     padding: 10px 12px 10px 12px;
     text-decoration: none;
     background-color: white;
+  }
+  .image1 {
+    display: none;
   }
 }
