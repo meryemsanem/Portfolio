@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767.9px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   body {
     height: 6844px;
     width: 100%;
@@ -780,7 +780,11 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+.grid-headline {
+  display: none;
+}
+
+@media screen and (min-width: 768.1px) {
   body {
     height: 4489px;
     width: 100%;
@@ -841,7 +845,7 @@
     display: none;
   }
 
-  .headline {
+  /* .headline {
     width: 100%;
     height: 870px;
     background-color: #1c1a19;
@@ -849,7 +853,10 @@
     background-repeat: no-repeat;
     background-position-x: right;
 
-    /* background-position-y: 50px; */
+  } */
+
+  .headline {
+    display: none;
   }
 
   .alex {
@@ -863,6 +870,13 @@
     line-height: 82px;
     text-align: left;
     color: #f55800;
+  }
+
+  .image-head {
+    float: right;
+    margin-top: -450px;
+    width: 100%;
+    max-width: fit-content;
   }
 
   .soft {
@@ -880,13 +894,11 @@
 
   .text {
     font-family: "Inter", serif;
-    font-size: 1.5vw;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
     color: #f4f5f7;
-
-    /* width: 100%; */
     width: 700px;
     height: 566px;
     padding-left: 143px;
@@ -894,7 +906,14 @@
     max-width: fit-content;
   }
 
-  .icon {
+  .grid-headline {
+    display: grid;
+    grid-template-columns: (2, 1 fr);
+    background-color: #1c1a19;
+    height: 870px;
+  }
+
+  .icon-desk {
     list-style: none;
     width: 100%;
     display: flex;
@@ -905,7 +924,7 @@
   }
 
   #work {
-    width: 80%;
+    width: 100%;
     display: grid;
     max-width: fit-content;
   }
@@ -937,17 +956,21 @@
   .container2 {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 8px;
 
     /* margin: 20px 60px 60px 70px; */
     height: 907px;
     width: 100%;
 
     /* max-width: fit-content; */
-    margin-left: 6%;
+
+    /* margin-left: 6%; */
 
     /* margin-right: 20px; */
-    margin-top: 20px;
+
+    /* margin-top: 20px; */
+    padding: 20px;
+    margin-bottom: 146px;
   }
 
   .line {
@@ -1052,6 +1075,26 @@
     width: 100%;
   }
 
+  /* .see-project-btn1-desk {
+    margin-top: 415px;
+    font-family: "Inter", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border: 1px solid #ff6b00;
+    background-color: #ff6b00;
+    height: 48px;
+    width: 124px;
+    top: 259px;
+    padding: 12px;
+    text-decoration: none;
+    margin-left: 10px;
+    list-style: none;
+    color: white;
+  } */
+
   .background2 {
     /* margin-left: 24px;
     margin-right: 24px; */
@@ -1115,15 +1158,14 @@
 
   .card-note {
     font-family: "Inter", serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+
+    /* padding-right: 16px; */
     color: white;
-    padding-left: 15px;
-    padding-bottom: 20px;
-    padding-right: 13px;
-    margin-bottom: -10px;
+    padding: 15px 95px 20px 15px;
   }
 
   .card-title {
@@ -1151,14 +1193,14 @@
 
   .card-note1 {
     font-family: "Inter", serif;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 
     /* padding-right: 16px; */
     color: white;
-    padding-left: 15px;
+    padding: 15px 95px 20px 15px;
   }
 
   .see-project {
@@ -1202,7 +1244,7 @@
     text-align: left;
     color: white;
     padding-left: 15px;
-    padding-top: 180px;
+    padding-top: 222px;
     padding-right: 16px;
   }
 
@@ -1289,6 +1331,7 @@
     gap: 150px;
     margin-top: 146px;
     width: 100%;
+    padding-right: 170px;
   }
 
   .information-list {
@@ -1310,26 +1353,33 @@
   }
 
   #contact-form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
+    height: 590px;
+    gap: 20px;
+    padding: 30px;
   }
 
   .contact-text {
     width: 100%;
-    max-width: fit-content;
-    height: 216px;
+
+    /* max-width: fit-content; */
+    height: 256px;
     font-family: "Inter", serif;
-    font-style: normal;
+
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 40px;
     line-height: 44px;
-    text-align: center;
+
+    /* text-align: center; */
     color: #262626;
     margin-top: 130px;
-    margin-left: 135px;
-    position: absolute;
-    margin-right: 850px;
+
+    /* margin-left: 20px; */
+
+    /* position: absolute; */
   }
 
   .form {
@@ -1340,10 +1390,10 @@
     display: flex;
 
     /* width: 80%; */
-    margin-left: 730px;
+
+    /* margin-left: 730px; */
     margin-top: 130px;
     width: 100%;
-    max-width: fit-content;
   }
 
   .name-sur {
@@ -1353,7 +1403,7 @@
   }
 
   input {
-    width: 60%;
+    width: 100%;
     margin: 20px 0;
     border: none;
     border-bottom: 1px solid #dbd8d7;
