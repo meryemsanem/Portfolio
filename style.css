@@ -948,7 +948,7 @@
     width: 100%;
     padding: 20px;
     margin-bottom: 120px;
-    padding-left: 150px;
+    padding-left: 10%;
   }
 
   .line {
@@ -1036,13 +1036,17 @@
   }
 
   .work-text {
-    margin-left: 70px;
+    margin-left: 10%;
   }
 
   .background1 {
     background-image: url("icons/desk1.png");
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
   }
 
   .see-project-btn1-desk {
@@ -1050,8 +1054,8 @@
     padding: 15px;
     text-align: center;
     color: white;
-    background-color: #ff6b00;
-    border: 1px solid #ff6b00;
+    background-color: #f55800;
+    border: 1px solid #f55800;
     font-family: "Inter", serif;
     font-size: 17px;
     font-weight: 700;
@@ -1060,34 +1064,64 @@
     margin-top: 379px;
   }
 
+  .see-project-btn1-desk:hover {
+    background: white;
+    color: #ff6b00;
+  }
+
+  .see-project-btn1-desk:visited {
+    background: #ff6b00;
+    color: white;
+  }
+
   .background2 {
     background-image: url("icons/desk2.png");
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
   }
 
   .background3 {
     background-image: url("icons/desk3.png");
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
   }
 
   .background4 {
     background-image: url("icons/desk4.png");
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
   }
 
   .background5 {
     background-image: url("icons/desk5.png");
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
   }
 
   .background6 {
     background-image: url("icons/desk6.png");
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
   }
 
   .lang-tech {
