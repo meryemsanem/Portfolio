@@ -957,6 +957,90 @@
     width: 100%;
   }
 
+  .background1 {
+    background-image: url("icons/desk1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background1:hover {
+    border: 1px solid black;
+  }
+
+  .background2 {
+    background-image: url("icons/desk2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background2:hover {
+    border: 1px solid black;
+  }
+
+  .background3 {
+    background-image: url("icons/desk3.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background3:hover {
+    border: 1px solid black;
+  }
+
+  .background4 {
+    background-image: url("icons/desk4.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background4:hover {
+    border: 1px solid black;
+  }
+
+  .background5 {
+    background-image: url("icons/desk5.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background5:hover {
+    border: 1px solid black;
+  }
+
+  .background6 {
+    background-image: url("icons/desk6.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background6:hover {
+    border: 1px solid black;
+  }
+
   .line {
     width: 100%;
     border: 1px solid darkgray;
@@ -1042,16 +1126,6 @@
     margin-left: 16%;
   }
 
-  .background1 {
-    background-image: url("icons/desk1.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 435px;
-    padding: auto;
-    margin-top: 20px;
-  }
-
   .see-project-btn1-desk {
     width: 100%;
     padding: 15px;
@@ -1075,56 +1149,6 @@
   .see-project-btn1-desk:visited {
     background: #ff6b00;
     color: white;
-  }
-
-  .background2 {
-    background-image: url("icons/desk2.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 435px;
-    padding: auto;
-    margin-top: 20px;
-  }
-
-  .background3 {
-    background-image: url("icons/desk3.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 435px;
-    padding: auto;
-    margin-top: 20px;
-  }
-
-  .background4 {
-    background-image: url("icons/desk4.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 435px;
-    padding: auto;
-    margin-top: 20px;
-  }
-
-  .background5 {
-    background-image: url("icons/desk5.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 435px;
-    padding: auto;
-    margin-top: 20px;
-  }
-
-  .background6 {
-    background-image: url("icons/desk6.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 435px;
-    padding: auto;
-    margin-top: 20px;
   }
 
   .lang-tech {
