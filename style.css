@@ -1332,6 +1332,7 @@
     margin-top: 146px;
     width: 100%;
     padding-right: 170px;
+    padding-left: 170px;
   }
 
   .information-list {
@@ -1341,6 +1342,7 @@
     font-weight: 700;
     line-height: 44px;
     text-align: left;
+    margin-left: -50px;
   }
 
   .list {
@@ -1380,6 +1382,7 @@
     /* margin-left: 20px; */
 
     /* position: absolute; */
+    padding-left: 135px;
   }
 
   .form {
