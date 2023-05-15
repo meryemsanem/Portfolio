@@ -66,7 +66,7 @@
 
 <a name="live-demo"></a>
 
-- The link to my online portfolio [Live Demo Link] (https://meryemsanem.github.io/desktop-version/)
+- The link to my online portfolio [Live Demo Link](https://meryemsanem.github.io/desktop-version/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
