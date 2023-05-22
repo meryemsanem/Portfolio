@@ -11,9 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
     "hint": "^2.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
