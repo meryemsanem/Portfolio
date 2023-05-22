@@ -51,8 +51,9 @@
     line-height: 24px;
     text-align: center;
   }
+
   .nav-logo:hover {
-    color: #f55800; 
+    color: #f55800;
   }
 
   .nav-link:hover {
