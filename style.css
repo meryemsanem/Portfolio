@@ -46,10 +46,13 @@
   .nav-logo {
     margin-left: 24px;
     font-family: "Roboto", serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 24px;
     text-align: center;
+  }
+  .nav-logo:hover {
+    color: #f55800; 
   }
 
   .nav-link:hover {
