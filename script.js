@@ -8,6 +8,12 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
+
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
+
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
