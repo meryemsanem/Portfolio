@@ -4,12 +4,20 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
+<<<<<<< HEAD
 document.querySelectorAll(".nav-link").forEach((n) =>
   n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   })
 );
+=======
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
+
+>>>>>>> 4c06f6a2a045026325c5eaf1665e4d8455bb2fe8
 const projectsArr = [
   {
     projectName: "Keeping track of hundreds  of components website",
