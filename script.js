@@ -143,8 +143,6 @@ const projectBtns = document.querySelectorAll('.see-project');
 const overlay = document.querySelector('.overlay');
 Array.from(projectBtns).forEach((projectBtns, i) => {
   projectBtns.addEventListener('click', () => {
-    // const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
-
     const popDiv = document.createElement('div');
     popDiv.id = 'background-popup';
     popDiv.style.position = 'relative';
@@ -197,15 +195,15 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
     overlay.classList.remove('hidden');
   });
 });
-function removeNewDiv() {
-  const newDiv = document.querySelector('#mobile');
-  const parentElement = newDiv.parentNode;
-  parentElement.removeChild(newDiv);
+function removePopDiv() {
+  const PopDiv = document.querySelector('#background-popup');
+  const parentElement = PopDiv.parentNode;
+  parentElement.removeChild(PopDiv);
 }
 
 document.addEventListener('click', (event) => {
   if (event.target.id === 'close') {
-    removeNewDiv();
+    removePopDiv();
     overlay.classList.add('hidden');
   }
 });
