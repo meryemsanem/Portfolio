@@ -1780,6 +1780,16 @@ i.fa {
     display: none;
   }
 
+  #form .invalid {
+    color: #f55800;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid white;
+    background-color: white;
+    font-family: "Poppins", serif;
+    padding: 10px 15px;
+  }
+
   hr {
     width: 100%;
     margin-top: 140px;
