@@ -8,6 +8,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
+
 const projectsArr = [
   {
     projectName: 'Keeping track of hundreds  of components website',
@@ -229,3 +230,5 @@ document.addEventListener('click', (event) => {
     removeDeskPop();
   }
 });
+
+

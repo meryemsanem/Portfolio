@@ -46,10 +46,14 @@
   .nav-logo {
     margin-left: 24px;
     font-family: "Roboto", serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 24px;
     text-align: center;
+  }
+
+  .nav-logo:hover {
+    color: #f55800;
   }
 
   .nav-link:hover {
@@ -1527,6 +1531,7 @@ i.fa {
     padding: 12px;
     text-decoration: none;
     list-style: none;
+    transition: 1s;
     color: white;
   }
 
@@ -1535,6 +1540,8 @@ i.fa {
     color: #ff6b00;
     border: 1px solid #ff6b00;
     list-style: none;
+    width: 135px;
+    cursor: pointer;
   }
 
   .see-project:visited {
@@ -1602,11 +1609,14 @@ i.fa {
     cursor: pointer;
     list-style: none;
     margin-left: 80px;
+    transition: 1s;
   }
 
   .resume:hover {
     background-color: antiquewhite;
     color: #ff6b00;
+    padding: 18px 35px;
+    cursor: pointer;
   }
 
   .line2 {
@@ -1736,7 +1746,6 @@ i.fa {
 
   .cont-submit {
     padding: 12px;
-    width: 100%;
     max-width: fit-content;
     height: 48px;
     background: #ff6b00;
@@ -1752,12 +1761,15 @@ i.fa {
     line-height: 24px;
     justify-content: center;
     display: flex;
+    transition: 1s;
   }
 
   .cont-submit:hover {
     background-color: white;
     color: #ff6b00;
     border: 1px solid #ff6b00;
+    padding: 14px;
+    cursor: pointer;
   }
 
   .cont-submit:visited {
