@@ -230,5 +230,3 @@ document.addEventListener('click', (event) => {
     removeDeskPop();
   }
 });
-
-
