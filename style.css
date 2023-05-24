@@ -1271,6 +1271,26 @@ i.fa {
     width: 100%;
   }
 
+  #see-project-btn1-desk {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #f55800;
+    border: 1px solid #f55800;
+    font-family: "Inter", serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 389px;
+    display: none;
+  }
+
+  #see-project-btn1-desk:hover {
+    background: white;
+    color: #ff6b00;
+  }
+
   .background1 {
     background-image: url("icons/desk1.png");
     background-repeat: no-repeat;
@@ -1279,6 +1299,11 @@ i.fa {
     height: 435px;
     padding: auto;
     margin-top: 20px;
+  }
+
+  #see-project-btn1-desk:visited {
+    background: #ff6b00;
+    color: white;
   }
 
   .background1:hover {
@@ -1474,31 +1499,6 @@ i.fa {
 
   .background6:hover .cards5 {
     display: none;
-  }
-
-  #see-project-btn1-desk {
-    width: 100%;
-    text-align: center;
-    color: white;
-    background-color: #f55800;
-    border: 1px solid #f55800;
-    font-family: "Inter", serif;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    margin-top: 389px;
-    display: none;
-  }
-
-  #see-project-btn1-desk:hover {
-    background: white;
-    color: #ff6b00;
-  }
-
-  #see-project-btn1-desk:visited {
-    background: #ff6b00;
-    color: white;
   }
 
   .lang-tech {
