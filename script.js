@@ -21,9 +21,9 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 
 const projectsArr = [
   {
-    projectName: 'Keeping track of hundreds  of components website',
+    projectName: 'Multi Post Stories',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
     linkToSource: 'https://github.com/meryemsanem/desktop-version',
@@ -33,7 +33,7 @@ const projectsArr = [
     projectName: 'Multi Post Stories',
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
     linkToSource: 'https://github.com/meryemsanem/desktop-version',
     image: 'icons/popup.png',
@@ -42,10 +42,64 @@ const projectsArr = [
     projectName: 'Multi Post Stories',
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
     linkToSource: 'https://github.com/meryemsanem/desktop-version',
     image: 'icons/popup.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'icons/popup.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'icons/popup.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'icons/popup.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'icons/popup.png',
+  },
+  {
+    projectName: 'Multi Post Storiees',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'icons/popup-desk.png',
+  },
+  {
+    projectName: 'Multi Post Storiess',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'icons/popup-desk.png',
   },
   {
     projectName: 'Multi Post Stories',
@@ -54,37 +108,10 @@ const projectsArr = [
     technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
     linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup.png',
+    image: 'icons/popup-desk.png',
   },
   {
     projectName: 'Multi Post Stories',
-    projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
-    linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup.png',
-  },
-  {
-    projectName: 'Multi Post Stories',
-    projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
-    linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup.png',
-  },
-  {
-    projectName: 'Multi Post Stories',
-    projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
-    linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup.png',
-  },
-  {
-    projectName: 'Keeping track of hundreds  of components website',
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
@@ -93,18 +120,18 @@ const projectsArr = [
     image: 'icons/popup-desk.png',
   },
   {
-    projectName: 'Keeping track of hundreds  of components website',
+    projectName: 'Multi Post Stories',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
     linkToSource: 'https://github.com/meryemsanem/desktop-version',
     image: 'icons/popup-desk.png',
   },
   {
-    projectName: 'Keeping track of hundreds  of components website',
+    projectName: 'Multi Post Stories',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
     linkToSource: 'https://github.com/meryemsanem/desktop-version',
@@ -179,34 +206,24 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       <div class='popup-container2'>
         <div class='mob-pop'>
          <button id='close' class='close'>&#x2716;</button>
-         <h3 id='name'>${projectsArr[i + 1].projectName}</h3> <br>
+         <h3 id='name'>${projectsArr[i].projectName}</h3> <br>
          </div> <br><br>
           <ul class='skill'>
-         <a href="#" class="a"><li class='skills'>${
-  projectsArr[i].technology[0]
-}</li></a>
-          <a href="#" class="a"><li class='skills'>${
-  projectsArr[i].technology[1]
-}</li></a>
-          <a href="#" class="a"><li class='skills'>${
-  projectsArr[i].technology[2]
-}</li></a>
+         <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[0]}</li></a>
+          <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[1]}</li></a>
+          <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[2]}</li></a>
         </ul>
         <div class="text-img">
-       <img class="Pop-Img" src='${
-  projectsArr[i + 1].image
-}' alt='mobile-popup' />
-        <p class="project-text">${
-  projectsArr[i + 1].projectDescription
-}</p></div>
+       <img class="Pop-Img" src='${projectsArr[i].image}' alt='mobile-popup' />
+        <p class="project-text">${projectsArr[i].projectDescription}</p></div>
      <div class='button-pop'>
-                <a href='${projectsArr[i + 1].linkToLive}'>
+                <a href='${projectsArr[i].linkToLive}'>
                   <button class='desk-button'>
                     <span>See Live</span>
                    <i class="fa-sharp fa-light fa-arrow-up-left-from-circle fa-rotate-90 fa-2xs"></i>
                   </button>
                 </a>
-                <a href='${projectsArr[i + 1].linkToSource}'>
+                <a href='${projectsArr[i].linkToSource}'>
                   <button class='desk-button'>
                     <span>See Source</span>
                     <i class='fa-brands fa-github fa-2xs'></i>

@@ -1440,6 +1440,42 @@ i.fa {
     margin-left: 16%;
   }
 
+  .background1:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background2:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background2:hover .cards1 {
+    display: none;
+  }
+
+  .background3:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background3:hover .cards2 {
+    display: none;
+  }
+
+  .background5:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background5:hover .cards4 {
+    display: none;
+  }
+
+  .background6:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background6:hover .cards5 {
+    display: none;
+  }
+
   #see-project-btn1-desk {
     width: 100%;
     text-align: center;
@@ -1452,6 +1488,7 @@ i.fa {
     line-height: 24px;
     letter-spacing: 0.03em;
     margin-top: 389px;
+    display: none;
   }
 
   #see-project-btn1-desk:hover {
