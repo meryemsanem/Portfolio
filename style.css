@@ -51,10 +51,9 @@
     line-height: 24px;
     text-align: center;
   }
-  
-  .nav-logo:hover {
-    color: #f55800; 
 
+  .nav-logo:hover {
+    color: #f55800;
   }
 
   .nav-link:hover {
@@ -69,6 +68,15 @@
     display: block;
     margin-right: 50px;
   }
+
+  .last-lang li {
+    text-decoration: none;
+  }
+
+  .lang li {
+    text-decoration: none;
+  }
+
   .icon li:hover {
     transform: scale(1.4);
   }
@@ -330,10 +338,6 @@
     background-color: white;
   }
 
-  .lang li {
-    text-decoration: none;
-  }
-
   .lang:hover {
     background-color: #ff6b00;
     color: white;
@@ -538,10 +542,6 @@
     text-decoration: none;
     background-color: #ffffff3d;
     color: white;
-  }
-
-  .last-lang li {
-    text-decoration: none;
   }
 
   .last-lang:hover {
