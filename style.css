@@ -69,6 +69,9 @@
     display: block;
     margin-right: 50px;
   }
+  .icon li:hover {
+    transform: scale(1.4);
+  }
 
   .bar {
     display: block;
