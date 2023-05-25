@@ -207,3 +207,27 @@ document.addEventListener('click', (event) => {
     overlay.classList.add('hidden');
   }
 });
+
+const form = document.querySelector('#form');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.getElementById('emaill').value;
+  const valid = document.querySelector('.invalid');
+  if (email !== email.toLowerCase()) {
+    valid.innerText = 'Form canot be submitted! enter your email in LOWER CASE.';
+  } else {
+    form.submit();
+  }
+});
+
+const form1 = document.querySelector('#form1');
+form1.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email1 = document.getElementById('email1').value;
+  const valid1 = document.querySelector('.invalid1');
+  if (email1 !== email1.toLowerCase()) {
+    valid1.innerText = 'Form cannot be sumbitted! Please enter your email in LOWER CASE.';
+  } else {
+    form1.submit();
+  }
+});
