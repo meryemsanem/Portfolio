@@ -52,7 +52,6 @@
   .title {
     width: 100%;
     margin-bottom: 20px;
-    margin-top: -40px;
   }
 
   .text-item {
@@ -935,7 +934,6 @@
     line-height: 44px;
     color: #172b4d;
     text-align: left;
-    padding-top: 10px;
   }
 
   .popup-container2 {
@@ -944,7 +942,7 @@
     height: 718px;
   }
 
-  .close {
+  #close {
     border: none;
     color: #67798e;
     background-color: white;
@@ -954,6 +952,7 @@
     font-size: 20px;
     font-weight: 200;
     cursor: pointer;
+    margin-top: -15px;
   }
 
   /* .close {
