@@ -254,6 +254,12 @@ form.addEventListener("click", () => {
 const getData = localStorage.getItem("formData");
 const prefillData = JSON.parse(getData);
 
+if(prefillData !== null) {
+  Name.value = prefillData.Name;
+  Emailmob.value = prefillData.Emailmob;
+  Text.value = prefillData.text;
+}
+
 const Name1 = document.getElementById("namesur");
 const Emailmob1 = document.getElementById("email1");
 const Text1 = document.getElementById("text1");
@@ -271,3 +277,10 @@ form1.addEventListener("click", () => {
 
 const getData1 = localStorage.getItem("formData1");
 const prefillData1 = JSON.parse(getData1);
+
+if(prefillData !== null) {
+  Name1.value = prefillData1.Name1;
+  Emailmob1.value = prefillData1.Emailmob1;
+  Text1.value = prefillData1.Text1;
+  Name2.value = prefillData1.Name2;
+}
