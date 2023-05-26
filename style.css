@@ -50,7 +50,7 @@
   }
 
   #form .invalid {
-    color: #f55800;
+    color: #f00;
     font-weight: 400;
     border: 1px solid white;
     background-color: white;
@@ -1962,7 +1962,7 @@
   }
 
   #form1 .invalid1 {
-    color: #f55800;
+    color: red;
     font-weight: 400;
     border: 1px solid white;
     background-color: white;

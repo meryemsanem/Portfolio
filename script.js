@@ -220,7 +220,11 @@ form.addEventListener("submit", (e) => {
   const email = document.getElementById("emaill").value;
   const valid = document.querySelector(".invalid");
   if (email !== email.toLowerCase()) {
+
     valid.innerText = "Please enter your email in LOWER CASE.";
+=======
+    valid.innerText = 'Form canot be submitted! enter your email in LOWER CASE.';
+
   } else {
     form.submit();
   }
@@ -232,7 +236,11 @@ form1.addEventListener("submit", (e) => {
   const email1 = document.getElementById("email1").value;
   const valid1 = document.querySelector(".invalid1");
   if (email1 !== email1.toLowerCase()) {
+
     valid1.innerText = "Please enter your email in LOWER CASE.";
+
+    valid1.innerText = 'Form cannot be sumbitted! Please enter your email in LOWER CASE.';
+
   } else {
     form1.submit();
   }
