@@ -214,7 +214,7 @@ form.addEventListener('submit', (e) => {
   const email = document.getElementById('emaill').value;
   const valid = document.querySelector('.invalid');
   if (email !== email.toLowerCase()) {
-    valid.innerText = 'Form canot be submitted! enter your email in LOWER CASE.';
+    valid.innerText = 'Please enter your email in LOWER CASE.';
   } else {
     form.submit();
   }
@@ -226,8 +226,55 @@ form1.addEventListener('submit', (e) => {
   const email1 = document.getElementById('email1').value;
   const valid1 = document.querySelector('.invalid1');
   if (email1 !== email1.toLowerCase()) {
-    valid1.innerText = 'Form cannot be sumbitted! Please enter your email in LOWER CASE.';
+    valid1.innerText = 'Please enter your email in LOWER CASE.';
   } else {
     form1.submit();
   }
 });
+
+const Name = document.getElementById('name');
+const Emailmob = document.getElementById('emaill');
+const Text = document.getElementById('text');
+
+form.addEventListener('click', () => {
+  const formData = {
+    Name: document.getElementById('name').value,
+    Emailmob: document.getElementById('emaill').value,
+    Text: document.getElementById('text').value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+const getData = localStorage.getItem('formData');
+const prefillData = JSON.parse(getData);
+
+if (prefillData !== null) {
+  Name.value = prefillData.Name;
+  Emailmob.value = prefillData.Emailmob;
+  Text.value = prefillData.Text;
+}
+
+const Name1 = document.getElementById('namesur');
+const Emailmob1 = document.getElementById('email1');
+const Text1 = document.getElementById('text1');
+const Name2 = document.getElementById('namesur1');
+
+form1.addEventListener('click', () => {
+  const formData1 = {
+    Name1: document.getElementById('namesur').value,
+    Name2: document.getElementById('namesur1').value,
+    Emailmob1: document.getElementById('email1').value,
+    Text1: document.getElementById('text1').value,
+  };
+  localStorage.setItem('formData1', JSON.stringify(formData1));
+});
+
+const getData1 = localStorage.getItem('formData1');
+const prefillData1 = JSON.parse(getData1);
+
+if (prefillData1 !== null) {
+  Name1.value = prefillData1.Name1;
+  Emailmob1.value = prefillData1.Emailmob1;
+  Text1.value = prefillData1.Text1;
+  Name2.value = prefillData1.Name2;
+}

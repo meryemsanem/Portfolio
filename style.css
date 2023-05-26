@@ -138,6 +138,11 @@
 
   .nav-link:hover {
     color: #f55800;
+    border: #1c1a19;
+  }
+
+  .logo:hover {
+    color: #f55800;
   }
 
   .hamburger {
