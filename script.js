@@ -4,20 +4,26 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
 });
-document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
+document.querySelectorAll('.nav-link').forEach((n) =>
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  })
+);
 
-document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
+document.querySelectorAll('.nav-link').forEach((n) =>
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  })
+);
 
-document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
+document.querySelectorAll('.nav-link').forEach((n) =>
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  })
+);
 
 const projectsArr = [
   {
@@ -30,13 +36,13 @@ const projectsArr = [
     image: 'icons/popup-desk.png',
   },
   {
-    projectName: 'Multi Post Stories',
+    projectName: 'To Do List App',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
-    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
-    linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup.png',
+      'To-do list is a tool that helps to organize your day, built with HTML, CSS, JavaScript , Webpack and ES6. With its management features, User can add, mark as completed, remove , clear all completed tasks and make changes to tasks.',
+    technology: ['HTML', 'CSS', 'JavaScript'],
+    linkToLive: 'https://meryemsanem.github.io/To-Do-List/dist/',
+    linkToSource: 'https://github.com/meryemsanem/To-Do-List',
+    image: 'icons/port1.png',
   },
   {
     projectName: 'Multi Post Stories',
@@ -84,13 +90,13 @@ const projectsArr = [
     image: 'icons/popup.png',
   },
   {
-    projectName: 'Multi Post Storiees',
+    projectName: 'To Do List App',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
-    linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup-desk.png',
+      'To-do list is a tool that helps to organize your day, built with HTML, CSS, JavaScript , Webpack and ES6. With its management features, User can add, mark as completed, remove , clear all completed tasks and make changes to tasks.',
+    technology: ['HTML', 'CSS', 'JavaScript'],
+    linkToLive: 'https://meryemsanem.github.io/To-Do-List/dist/',
+    linkToSource: 'https://github.com/meryemsanem/To-Do-List',
+    image: 'icons/port1.png',
   },
   {
     projectName: 'Multi Post Storiess',
