@@ -1,551 +1,2039 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meryem Sanem Küçükbayram</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/f9ba107a19.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <div class="container-nav">
-        <nav class="navbar">
-          <a href="#" class="nav-logo">Meryem</a>
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="#work" class="nav-link">Portfolio</a>
-              <hr />
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-              <hr />
-            </li>
-            <li class="nav-item">
-              <a href="#contact-form" class="nav-link">Contact</a>
-              <hr />
-            </li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </nav>
-      </div>
-    </header>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    <div class="up-side">
-      <a href="#" class="logo">Meryem</a>
-      <nav class="buttons-up">
-        <ul>
-          <li class="li-up"><a href="#work">Portfolio</a></li>
-          <li class="li-up"><a href="#about">About</a></li>
-          <li class="li-up"><a href="#contact-form">Contact</a></li>
-          <li class="li-up">
-            <a href="mailto:meryemsanemkucukbayram@gmail.com">
-              <img src="icons/mail-icon.png" alt="mail" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <section class="headline">
-      <h1 class="alex">
-        Hey There. <br />
-        I'm Meryem.
-      </h1>
-      <h3 class="soft">I'm a Software Developer</h3>
-      <p class="text">
-        I can help you build a product , feature or website Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hesitate to contact me.
-      </p>
-      <ul class="icon">
-        <li class="icon1">
-          <a href="https://github.com/meryemsanem"
-            ><img src="icons/icon1.png" alt="icon1"
-          /></a>
-        </li>
-        <li class="icon2">
-          <a
-            href="https://www.linkedin.com/in/meryem-sanem-kucukbayram-047a831b5/"
-            ><img src="icons/icon2.png" alt="icon2"
-          /></a>
-        </li>
-        <li class="icon3">
-          <a href="#"><img src="icons/icon3.png" alt="icon3" /></a>
-        </li>
-        <li class="icon4">
-          <a href="https://twitter.com/msanemkckbayram"
-            ><img src="icons/icon4.png" alt="icon4"
-          /></a>
-        </li>
-        <li class="icon5">
-          <a href="#"><img src="icons/icon5.png" alt="icon5" /></a>
-        </li>
-      </ul>
-    </section>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    <div class="grid-headline">
-      <section class="headline2">
-        <h1 class="alex">
-          Hey There. <br />
-          I'm Meryem.
-        </h1>
-        <h3 class="soft">I'm a Software Developer</h3>
-        <p class="text">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hesitate to contact me.
-        </p>
-        <ul class="icon-desk">
-          <li class="icon1">
-            <a href="https://github.com/meryemsanem"
-              ><img src="icons/icon1.png" alt="icon1"
-            /></a>
-          </li>
-          <li class="icon2">
-            <a
-              href="https://www.linkedin.com/in/meryem-sanem-kucukbayram-047a831b5/"
-              ><img src="icons/icon2.png" alt="icon2"
-            /></a>
-          </li>
-          <li class="icon3">
-            <a href="#"><img src="icons/icon3.png" alt="icon3" /></a>
-          </li>
-          <li class="icon4">
-            <a href="https://twitter.com/msanemkckbayram"
-              ><img src="icons/icon4.png" alt="icon4"
-            /></a>
-          </li>
-          <li class="icon5">
-            <a href="#"><img src="icons/icon5.png" alt="icon5" /></a>
-          </li>
-        </ul>
-      </section>
-    </div>
+.popup-container {
+  background-color: white;
+  height: 630px;
+  position: fixed;
+  top: 0;
+  margin: auto;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 45px;
+}
 
-    <section id="work">
-      <h3 class="recentt-works">My Recent Works</h3>
-      <div class="vector">
-        <img src="icons/vector.png" alt="vector" />
-      </div>
+.text-img {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
 
-      <div class="text-line">
-        <h3 class="recent-works">My Recent Works</h3>
-        <div class="line"></div>
-      </div>
+.popup-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 45px;
+}
 
-      <div class="gridContainer">
-        <div class="image1">
-          <img src="icons/image1.png" class="background-img" />
-        </div>
-        <div class="image2">
-          <img src="icons/image2.png" class="background-img1" />
-        </div>
-        <div class="work-text">
-          <h4 class="work-title">Multi Post Stories</h4>
-          <p class="inside-text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. This has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a standard dummy
-            text.
-          </p>
-          <ul class="languages">
-            <button class="lang"><li>CSS</li></button>
-            <button class="lang"><li>HTML</li></button>
-            <button class="lang"><li>Bootstrap</li></button>
-            <button class="lang"><li>Ruby</li></button>
-          </ul>
-          <ul>
-            <button class="see-project" id="projectbutton">
-              <li>See Project</li>
-            </button>
-          </ul>
-        </div>
-      </div>
+.text-item {
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
 
-      <div class="container1">
-        <div class="background-todo">
-          <div class="cards-todo">
-            <div class="card-title-todo">
-              <p>To Do List</p>
-            </div>
-            <p class="card-note-todo">
-              To-do list is a tool that helps to organize your day, built with
-              HTML, CSS, JavaScript , Webpack and ES6. With its management
-              features, User can add, mark as completed, remove , clear all
-              completed tasks and make changes to tasks.
-            </p>
-            <ul class="lang-tech-todo">
-              <li class="tech-used-todo">HTML</li>
-              <li class="tech-used-todo">CSS</li>
-              <li class="tech-used-todo">JavaScript</li>
-            </ul>
-            <button id="see-project-btn" class="see-project">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="background">
-          <div class="cards">
-            <div class="card-title">
-              <p>Professional Art</p>
-              <p>Printing Data</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-            <button id="see-project-btn" class="see-project">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="background">
-          <div class="cards">
-            <div class="card-title">
-              <p>Professional Art</p>
-              <p>Printing Data</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-            <button id="see-project-btn" class="see-project">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="background">
-          <div class="cards">
-            <div class="card-title">
-              <p>Professional Art</p>
-              <p>Printing Data</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-            <button id="see-project-btn" class="see-project">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="background">
-          <div class="cards">
-            <div class="card-title">
-              <p>Professional Art</p>
-              <p>Printing Data</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-            <button id="see-project-btn" class="see-project">
-              See Project
-            </button>
-          </div>
-        </div>
-        <div class="background">
-          <div class="cards">
-            <div class="card-title">
-              <p>Professional Art</p>
-              <p>Printing Data</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-            <button id="see-project-btn" class="see-project">
-              See Project
-            </button>
-          </div>
-        </div>
-      </div>
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  body {
+    height: 6844px;
+    width: 100%;
+    background-color: white;
+  }
 
-      <div class="container2">
-        <div class="background1">
-          <button class="see-project" id="see-project-btn1-desk">
-            See Project
-          </button>
-        </div>
-        <div class="background2">
-          <button class="see-project" id="see-project-btn1-desk">
-            See Project
-          </button>
-          <div class="cards1">
-            <div class="card-title1">
-              <p>Data Dashboard</p>
-              <p>Healthcare</p>
-            </div>
-            <p class="card-note1">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="background3">
-          <button class="see-project" id="see-project-btn1-desk">
-            See Project
-          </button>
-          <div class="cards2">
-            <div class="card-title2">
-              <p>Website Portfolio</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="background4">
-          <button class="see-project" id="see-project-btn1-desk">
-            See Project
-          </button>
-          <div class="cards3">
-            <div class="card-title">
-              <p>Professional Art</p>
-              <p>Printing Data</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="background5">
-          <button class="see-project" id="see-project-btn1-desk">
-            See Project
-          </button>
-          <div class="cards4">
-            <div class="card-title1">
-              <p>Data Dashboard</p>
-              <p>Healthcare</p>
-            </div>
-            <p class="card-note1">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-          </div>
-        </div>
-        <div class="background6">
-          <button class="see-project" id="see-project-btn1-desk">
-            See Project
-          </button>
-          <div class="cards5">
-            <div class="card-title2">
-              <p>Website Portfolio</p>
-            </div>
-            <p class="card-note">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. Has been the industry's standard.
-            </p>
-            <ul class="lang-tech">
-              <li class="tech-used">HTML</li>
-              <li class="tech-used">Bootstrap</li>
-              <li class="tech-used">Ruby</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <h3 class="about-me">About me</h3>
-      <div class="about-text">
-        Hey there! I can help you build a product, feature or website. Look
-        through some of my work and experience! If you like what you see and
-        have a project you need coded, don’t hesitate to contact me.
-      </div>
-      <ul>
-        <li><button class="resume">Get my resume</button></li>
-      </ul>
-      <div class="new-vector">
-        <img src="icons/new-vector.png" alt="vector" />
-      </div>
-      <div class="line2"></div>
-      <ul class="information">
-        <li class="information-list">
-          <img src="icons/rect1.png" /> Languages
-          <ul class="list">
-            <li>Javascript</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </li>
-        <li class="information-list">
-          <img src="icons/rect2.png" /> Frameworks
-          <ul class="list">
-            <li>React.js</li>
-            <li>Ruby on Rails</li>
-            <li>Rspec</li>
-            <li>Capybara</li>
-          </ul>
-        </li>
-        <li class="information-list">
-          <img src="icons/rect3.png" /> Skills
-          <ul class="list">
-            <li>Database Management</li>
-            <li>Version Control</li>
-            <li>CLI</li>
-            <li>API Design</li>
-            <li>Web Development</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <section id="contact-form">
-      <p class="contact-text">
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
-      </p>
-      <div class="form">
-        <form action="https://formspree.io/f/xayzvrbd" id="form" method="POST">
-          <input
-            type="text"
-            maxlength="30"
-            id="name"
-            placeholder="Full name"
-            required
-          />
+  #form .invalid {
+    color: #f55800;
+    font-weight: 400;
+    border: 1px solid white;
+    background-color: white;
+    font-family: 'Poppins', serif;
+    margin-top: 10px;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+  }
 
-          <input
-            type="email"
-            id="emaill"
-            placeholder="Email address"
-            required
-          />
-          <textarea
-            name="Message"
-            maxlength="500"
-            id="text"
-            placeholder="Write me something..."
-            required
-          ></textarea>
-          <button class="cont-submit">Get in touch</button>
-          <small class="invalid"></small>
-        </form>
-      </div>
+  .title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-      <div class="form2">
-        <form action="https://formspree.io/f/xayzvrbd" id="form1" method="POST">
-          <div class="name-sur">
-            <input
-              type="text"
-              maxlength="30"
-              id="namesur"
-              placeholder="First name"
-              required
-            />
-            <input
-              type="text"
-              maxlength="30"
-              id="namesur1"
-              placeholder="Last name"
-              required
-            />
-          </div>
-          <input
-            type="email"
-            id="email1"
-            placeholder="Email address"
-            required
-          />
-          <textarea
-            name="Message"
-            maxlength="500"
-            id="text1"
-            placeholder="Write me something..."
-            required
-          ></textarea>
-          <button class="cont-submit">Get in touch</button> <br />
-          <small class="invalid1"></small>
-        </form>
-      </div>
-    </section>
-    <hr />
-    <footer>
-      <div class="rect-footer"></div>
-      <ul class="footer">
-        <li>
-          <a href="#">
-            <img src="icons/textarea-icon1.png" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="icons/textarea-icon2.png" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="icons/textarea-icon3.png" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="icons/textarea-icon4.png" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="icons/textarea-icon5.png" />
-          </a>
-        </li>
-      </ul>
-    </footer>
-    <div class="overlay hidden"></div>
-    <script src="script.js"></script>
-  </body>
-</html>
+  .text-item {
+    flex-direction: column;
+  }
+
+  .popup-container {
+    width: 90%;
+    margin-top: 10px;
+    height: 650px;
+  }
+
+  .Popup-image {
+    width: 100%;
+    height: 50%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #9794932d;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .container-nav {
+    background-color: #3c3a39;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-logo {
+    margin-left: 24px;
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    color: #f55800;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    display: block;
+    margin-right: 50px;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: absolute;
+    left: -100%;
+    top: 35px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #3c3a39;
+    width: 100%;
+    display: flex;
+    height: 755px;
+  }
+
+  .nav-menu hr {
+    border: 1px solid #6f6c6b;
+    margin-right: 24px;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+    font-family: 'Inter', serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .headline {
+    width: 100%;
+    height: 682px;
+    padding: 120px 24px 120px 24px;
+    background-color: #1c1a19;
+    background-image: url('icons/Illustration.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 315px;
+  }
+
+  .alex {
+    width: 100%;
+    height: 124px;
+    font-family: 'Crete Round', serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #ff6b00;
+    margin-top: 100px;
+  }
+
+  .soft {
+    height: 27px;
+    width: 100%;
+    font-family: 'Roboto', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #fff5e1;
+    margin-top: 12px;
+  }
+
+  .text {
+    height: 123px;
+    width: 100%;
+    left: 24px;
+    top: 295px;
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+    margin-top: 12px;
+  }
+
+  .icon {
+    list-style: none;
+    height: 40px;
+    width: 100%;
+    margin-left: 24px;
+    top: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .icon1 {
+    height: 20px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: -15px;
+    max-width: fit-content;
+  }
+
+  .icon2 {
+    height: 20px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 21px;
+    max-width: fit-content;
+  }
+
+  .icon3 {
+    height: 20px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 21px;
+    max-width: fit-content;
+  }
+
+  .icon4 {
+    height: 20px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 21px;
+    max-width: fit-content;
+  }
+
+  .icon5 {
+    height: 20px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 21px;
+    max-width: fit-content;
+  }
+
+  .first-image {
+    height: 311.7103797638283px;
+    width: 100%;
+    margin-top: -240px;
+    max-width: fit-content;
+    float: right;
+    margin-right: -23px;
+  }
+
+  #work {
+    width: 100%;
+    display: grid;
+  }
+
+  .container {
+    display: grid;
+    width: 100%;
+  }
+
+  .recentt-works {
+    height: 83px;
+    width: 100%;
+    border-radius: nullpx;
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 120px;
+    color: #1c1a19;
+  }
+
+  .vector {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: fit-content;
+  }
+
+  .background-img {
+    width: 100%;
+  }
+
+  .image1 {
+    margin: 60px 24px 0 24px;
+  }
+
+  .work-title {
+    height: 36px;
+    width: 100%;
+    margin-left: 24px;
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #091e42;
+    margin-top: 24px;
+    max-width: fit-content;
+  }
+
+  .inside-text {
+    height: 147px;
+    width: 100%;
+    margin-left: 24px;
+    margin-top: 12px;
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #091e42;
+    max-width: fit-content;
+  }
+
+  .languages {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    gap: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    align-items: center;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    max-width: fit-content;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .lang {
+    border: 1px solid #8993a4;
+    height: 40px;
+    width: 100%;
+    max-width: fit-content;
+    padding: 10px 12px 10px 12px;
+    text-decoration: none;
+    background-color: white;
+  }
+
+  .lang li {
+    text-decoration: none;
+  }
+
+  .lang:hover {
+    background-color: #ff6b00;
+    color: white;
+  }
+
+  .languages li a {
+    color: #091e42;
+    text-decoration: none;
+  }
+
+  .resume li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .resume a:visited {
+    color: white;
+  }
+
+  .resume li a:hover {
+    color: #091e42;
+  }
+
+  .languages li a:hover {
+    color: white;
+    text-decoration: none;
+    background: #ff6b00;
+  }
+
+  .see-project {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border: 1px solid #ff6b00;
+    background-color: #ff6b00;
+    margin-top: 24px;
+    height: 48px;
+    width: 124px;
+    top: 259px;
+    padding: 12px;
+    text-decoration: none;
+    margin-left: 30px;
+    list-style: none;
+    color: white;
+  }
+
+  .see-project:hover {
+    background-color: white;
+    color: #ff6b00;
+    border: 1px solid #ff6b00;
+    list-style: none;
+  }
+
+  .see-project:visited {
+    background-color: #ff6b00;
+    color: white;
+  }
+
+  .background {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .background-todo {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .cards-todo {
+    background-image: url('icons/todo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .cards {
+    background-image: url('icons/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .lang-tech {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    padding-bottom: 30px;
+    margin-left: 12px;
+    gap: 12px;
+  }
+
+  .tech-used {
+    border: none;
+    padding: 8px;
+    color: white;
+    background-color: #ffffff3d;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .lang-tech-todo {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    padding-bottom: 30px;
+    margin-left: 12px;
+    gap: 12px;
+  }
+
+  .tech-used-todo {
+    border: 1px solid #f55800;
+    padding: 8px;
+    color: #f55800;
+    background-color: #ffffff3d;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .card-note {
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 13px;
+    margin-bottom: -10px;
+  }
+
+  .card-note-todo {
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #f55800;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 13px;
+    margin-bottom: -10px;
+  }
+
+  .card-title {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: white;
+    padding-left: 15px;
+  }
+
+  .card-title-todo {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #f55800;
+    padding-left: 15px;
+  }
+
+  #see-project-btn {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: #ff6b00;
+    border: 1px solid #ff6b00;
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-left: 1px;
+  }
+
+  #see-project-btn:hover {
+    background: white;
+    color: #ff6b00;
+  }
+
+  #see-project-btn:visited {
+    background: #ff6b00;
+    color: white;
+  }
+
+  .work-text1 {
+    height: 99px;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: -350px;
+    border-radius: nullpx;
+    color: white;
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    max-width: fit-content;
+    margin-right: 20px;
+  }
+
+  .work-text2 {
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 99px;
+    margin-left: 40px;
+    margin-top: -5px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    max-width: fit-content;
+    margin-right: 50px;
+  }
+
+  .new-lang {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    text-decoration: none;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: fit-content;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+  .last-lang {
+    border: 1px solid #8993a4;
+    height: 40px;
+    width: 100%;
+    max-width: fit-content;
+    padding: 10px 12px 10px 12px;
+    text-decoration: none;
+    background-color: #ffffff3d;
+    color: white;
+  }
+
+  .last-lang li {
+    text-decoration: none;
+  }
+
+  .last-lang:hover {
+    background-color: #ff6b00;
+    color: white;
+  }
+
+  .button1 {
+    background-color: #ff6b00;
+    color: white;
+    border: 1px solid #ff6b00;
+    margin-top: -50px;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .button1:hover {
+    background-color: #fff;
+    color: #ff6b00;
+  }
+
+  .button1:visited {
+    background-color: #ff6b00;
+    color: white;
+  }
+
+  #about {
+    height: 1800px;
+    width: 100%;
+    margin-top: 120px;
+    background-color: black;
+    background-image: url('icons/illustration2.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 370px;
+  }
+
+  .about-me {
+    height: 79px;
+    width: 100%;
+    margin-left: 24px;
+    font-family: 'Crete Round', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #ff6b00;
+    padding-top: 100px;
+    max-width: fit-content;
+  }
+
+  .about-text {
+    height: 148px;
+    width: 100%;
+    max-width: fit-content;
+    margin-left: 24px;
+    margin-top: 100px;
+    color: #f4f5f7;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-right: 24px;
+  }
+
+  .resume {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 25px;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .resume:hover {
+    background-color: antiquewhite;
+    color: #ff6b00;
+  }
+
+  .second-image {
+    height: 258.1711730957031px;
+    width: 100%;
+    left: 492.9716796875px;
+    margin-top: -50px;
+    float: right;
+    max-width: fit-content;
+  }
+
+  .new-vector {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: fit-content;
+    margin-top: 180px;
+  }
+
+  .tech-titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 227px;
+    left: 42px;
+    top: 8px;
+    font-family: 'Inter', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .information {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin-top: 136px;
+  }
+
+  .language-list {
+    list-style: none;
+    height: 24px;
+    width: 164px;
+    left: 49.4560546875px;
+    top: 8.7279052734375px;
+  }
+
+  .information-list {
+    list-style: none;
+    font-family: 'InaiMathi', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .list {
+    list-style: none;
+    font-family: 'Inter', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .contact-text {
+    width: 100%;
+    max-width: fit-content;
+    height: 216px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+    margin-top: 69px;
+    margin-left: 23px;
+    margin-right: 25px;
+    position: absolute;
+  }
+
+  #contact-form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+  }
+
+  #form {
+    position: absolute;
+    margin-top: 380px;
+    left: 50px;
+    width: 80%;
+    max-width: fit-content;
+  }
+
+  input {
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    height: 30px;
+  }
+
+  input::placeholder {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 12px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 114px;
+    margin-top: 15px;
+    border: none;
+    background-color: #fbf8f7;
+    background-image: url('icons/text-area-icon.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    resize: none;
+  }
+
+  textarea::placeholder {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    height: 90px;
+    padding-left: 12px;
+    padding-top: 12px;
+    color: #3c3a39;
+  }
+
+  .cont-submit {
+    padding: 12px;
+    width: 100%;
+    max-width: fit-content;
+    height: 48px;
+    background: #ff6b00;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    color: white;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 24px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cont-submit:hover {
+    background-color: white;
+    color: #ff6b00;
+    border: 1px solid #ff6b00;
+  }
+
+  .cont-submit:visited {
+    background-color: #ff6b00;
+    color: white;
+    border: 1px solid #ff6b00;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 98px;
+    margin-right: 98px;
+    margin-top: 25px;
+  }
+
+  .rect-footer {
+    margin-top: 797px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dfe1e6;
+  }
+
+  .buttons-up {
+    display: none;
+  }
+
+  .desktop-vector {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .text-line {
+    display: none;
+  }
+
+  .image2 {
+    display: none;
+  }
+
+  .container2 {
+    display: none;
+  }
+
+  .container1 {
+    width: 100%;
+  }
+
+  .form2 {
+    display: none;
+  }
+
+  .line3 {
+    display: none;
+  }
+
+  .grid-headline {
+    display: none;
+  }
+
+  .recent-works {
+    display: none;
+  }
+
+  #name {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #172b4d;
+    text-align: left;
+  }
+
+  .popup-container2 {
+    background-color: white;
+    width: 100%;
+    height: 718px;
+  }
+
+  #close {
+    border: none;
+    color: #67798e;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    margin-top: -15px;
+  }
+
+  /* .close {
+    padding-top: 30px;
+    border: none;
+    color: #67798e;
+    float: right;
+    padding-right: 50px;
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+  } */
+
+  .skill {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: -15px;
+  }
+
+  .skills {
+    color: black;
+    list-style: none;
+    border: 1px solid #6f6c6b;
+    font-family: 'Poppins', serif;
+    font-size: 13px;
+    padding: 10px 12px 10px 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .project-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+    font-family: 'Inter', serif;
+    text-align: left;
+  }
+
+  .desk-button {
+    position: relative;
+    background-color: #f55800;
+    color: white;
+    border: 1px solid #f55800;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    margin-top: 5px;
+  }
+
+  .button-pop {
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+    gap: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fa-brands {
+    color: white;
+  }
+
+  i.fa {
+    font-weight: 100;
+  }
+
+  .fa-sharp {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768.1px) {
+  body {
+    height: 4489px;
+    width: 100%;
+    background-color: white;
+  }
+
+  header {
+    display: none;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 24px;
+    margin-top: 5px;
+  }
+
+  .skills {
+    list-style: none;
+    border: 1px solid #6f6c6b;
+    font-family: 'Poppins', serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 12px 10px 12px;
+    margin-top: -1px;
+  }
+
+  #name {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #172b4d;
+    text-align: left;
+    margin-left: 24px;
+    padding-top: 10px;
+  }
+
+  .text-img {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .title {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .popup-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 45px;
+  }
+
+  .text-item {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    height: 420px;
+  }
+
+  .project-text {
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .popup-container {
+    background-color: white;
+    height: 630px;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 45px;
+  }
+
+  .Popup-image {
+    width: 50%;
+  }
+
+  .popup-container2 {
+    background-color: white;
+  }
+
+  .a {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* .close {
+    border: none;
+    color: #67798e;
+    padding-right: 50px;
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    text-align: end;
+  } */
+
+  .close {
+    border: none;
+    color: #67798e;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+  }
+
+  .button-pop {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    gap: 12px;
+    margin-left: auto;
+  }
+
+  .desk-button {
+    position: relative;
+    background-color: #f55800;
+    color: white;
+    border: 1px solid #f55800;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  .fa-brands {
+    color: white;
+  }
+
+  i.fa {
+    font-weight: 100;
+  }
+
+  .fa-sharp {
+    color: white;
+  }
+
+  .up-side {
+    background-color: #3e3c3c;
+    width: 100%;
+    height: 72px;
+    position: absolute;
+  }
+
+  .container1 {
+    display: none;
+  }
+
+  .buttons-up {
+    float: right;
+    margin-right: 156px;
+    margin-top: 30px;
+  }
+
+  .logo {
+    text-decoration: none;
+    color: white;
+    margin-left: 156px;
+    margin-top: 30px;
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+  }
+
+  .buttons-up ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    gap: 32px;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .buttons-up ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .union {
+    display: none;
+  }
+
+  .headline {
+    display: none;
+  }
+
+  .alex {
+    width: 100%;
+    height: 160px;
+    padding-left: 143px;
+    padding-top: 264px;
+    font-family: 'Crete Round', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    text-align: left;
+    color: #f55800;
+  }
+
+  .soft {
+    font-family: 'Inter', serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    color: #fff;
+    padding-top: 170px;
+    padding-left: 143px;
+    width: 100%;
+    height: 24px;
+  }
+
+  .text {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #f4f5f7;
+    width: 700px;
+    padding-left: 143px;
+    padding-top: 60px;
+    max-width: fit-content;
+  }
+
+  .grid-headline {
+    display: grid;
+    grid-template-columns: (2, 1 fr);
+    background-color: #1c1a19;
+    height: 870px;
+  }
+
+  .headline2 {
+    background-image: url('icons/desktop-ill1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 45%;
+    background-position-y: 5px;
+  }
+
+  .icon-desk {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -250px;
+    padding-left: 18px;
+    gap: 15px;
+  }
+
+  #work {
+    width: 100%;
+    display: grid;
+    max-width: fit-content;
+  }
+
+  .recent-works {
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    color: #091e42;
+    padding-left: 153px;
+    padding-top: 135px;
+    width: 100%;
+  }
+
+  .vector {
+    display: none;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 448px;
+    margin: 60px 50px 0 70px;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    height: 907px;
+    padding: 20px;
+    margin-bottom: 120px;
+    padding-left: 4%;
+    width: 100%;
+  }
+
+  #see-project-btn1-desk {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #f55800;
+    border: 1px solid #f55800;
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 389px;
+    display: none;
+  }
+
+  #see-project-btn1-desk:hover {
+    background: white;
+    color: #ff6b00;
+  }
+
+  .background1 {
+    background-image: url('icons/todo.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  #see-project-btn1-desk:visited {
+    background: #ff6b00;
+    color: white;
+  }
+
+  .background1:hover {
+    border: 1px solid black;
+  }
+
+  .background2 {
+    background-image: url('icons/desk2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background2:hover {
+    border: 1px solid black;
+  }
+
+  .background3 {
+    background-image: url('icons/desk3.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background3:hover {
+    border: 1px solid black;
+  }
+
+  .background4 {
+    background-image: url('icons/desk4.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background4:hover {
+    border: 1px solid black;
+  }
+
+  .background5 {
+    background-image: url('icons/desk5.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background5:hover {
+    border: 1px solid black;
+  }
+
+  .background6 {
+    background-image: url('icons/desk6.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 435px;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .background6:hover {
+    border: 1px solid black;
+  }
+
+  .line {
+    width: 100%;
+    border: 1px solid darkgray;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .text-line {
+    display: flex;
+    align-items: flex-end;
+    width: 63%;
+  }
+
+  .background-img1 {
+    width: 100%;
+  }
+
+  .image2 {
+    height: 448px;
+    width: 100%;
+  }
+
+  .work-title {
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    color: #091e42;
+    display: flex;
+    justify-content: left;
+  }
+
+  .recentt-works {
+    display: none;
+  }
+
+  .inside-text {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #091e42;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+  }
+
+  .languages {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    align-items: center;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    max-width: fit-content;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .lang {
+    border: 1px solid #8993a4;
+    height: 40px;
+    width: 100%;
+    max-width: fit-content;
+    padding: 10px 12px 10px 12px;
+    text-decoration: none;
+    background-color: white;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .work-text {
+    margin-left: 16%;
+  }
+
+  .background1:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background2:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background2:hover .cards1 {
+    display: none;
+  }
+
+  .background3:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background3:hover .cards2 {
+    display: none;
+  }
+
+  .background5:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background5:hover .cards4 {
+    display: none;
+  }
+
+  .background6:hover #see-project-btn1-desk {
+    display: block;
+  }
+
+  .background6:hover .cards5 {
+    display: none;
+  }
+
+  .lang-tech {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    padding-bottom: 10px;
+    margin-left: 12px;
+    gap: 12px;
+  }
+
+  .tech-used {
+    border: none;
+    padding: 8px;
+    color: white;
+    background-color: #ffffff3d;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .card-note {
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    padding: 12px 0 12px 12px;
+  }
+
+  .card-title {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: white;
+    padding-top: 180px;
+    padding-left: 14px;
+  }
+
+  .card-title1 {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: white;
+    padding-left: 15px;
+    padding-top: 180px;
+    padding-right: 16px;
+  }
+
+  .card-note1 {
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    padding: 12px 0 12px 12px;
+  }
+
+  .see-project {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border: 1px solid #ff6b00;
+    background-color: #ff6b00;
+    margin-top: 18px;
+    height: 48px;
+    width: 124px;
+    top: 259px;
+    padding: 12px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
+
+  .see-project:hover {
+    background-color: white;
+    color: #ff6b00;
+    border: 1px solid #ff6b00;
+    list-style: none;
+  }
+
+  .see-project:visited {
+    background-color: #ff6b00;
+    color: white;
+  }
+
+  .card-title2 {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: white;
+    padding-left: 15px;
+    padding-top: 222px;
+    padding-right: 16px;
+  }
+
+  #about {
+    height: 1195px;
+    background-color: #262626;
+    width: 100%;
+    background-image: url('icons/desktop-ill2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 90px;
+    background-size: 35%;
+  }
+
+  .about-me {
+    font-family: 'Crete Round', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    text-align: left;
+    color: #f55800;
+    margin-left: 80px;
+    padding-top: 130px;
+  }
+
+  .about-text {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    margin-left: 80px;
+    padding-top: 24px;
+    margin-right: 732px;
+    width: 566px;
+  }
+
+  .resume {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 25px;
+    cursor: pointer;
+    list-style: none;
+    margin-left: 80px;
+  }
+
+  .resume:hover {
+    background-color: antiquewhite;
+    color: #ff6b00;
+  }
+
+  .line2 {
+    width: 80%;
+    border: 1px solid gray;
+    height: 1px;
+    margin-left: 100px;
+    margin-right: 142px;
+    margin-top: 150px;
+  }
+
+  .new-vector {
+    display: none;
+  }
+
+  .information {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    gap: 150px;
+    margin-top: 146px;
+    width: 100%;
+    padding-right: 170px;
+    padding-left: 170px;
+  }
+
+  .information-list {
+    list-style: none;
+    font-family: 'Inter', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin-left: -50px;
+  }
+
+  .list {
+    list-style: none;
+    font-family: 'Inter', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+  }
+
+  #contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 590px;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .contact-text {
+    width: 455px;
+    height: 256px;
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #262626;
+    margin-top: 130px;
+    padding-left: 16px;
+  }
+
+  .form {
+    display: none;
+  }
+
+  .form2 {
+    display: flex;
+    margin-top: 130px;
+    width: 100%;
+  }
+
+  .name-sur {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  input {
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    height: 30px;
+  }
+
+  input::placeholder {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 12px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 114px;
+    margin-top: 15px;
+    border: none;
+    background-color: #fbf8f7;
+    background-image: url('icons/text-area-icon.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    resize: none;
+  }
+
+  textarea::placeholder {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    height: 90px;
+    padding-left: 12px;
+    padding-top: 12px;
+    color: #3c3a39;
+  }
+
+  .cont-submit {
+    padding: 12px;
+    width: 100%;
+    max-width: fit-content;
+    height: 48px;
+    background: #ff6b00;
+    border: none;
+    margin-right: auto;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 24px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cont-submit:hover {
+    background-color: white;
+    color: #ff6b00;
+    border: 1px solid #ff6b00;
+  }
+
+  .cont-submit:visited {
+    background-color: #ff6b00;
+    color: white;
+    border: 1px solid #ff6b00;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .rect-footer {
+    display: none;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #9794932d;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #form1 .invalid1 {
+    color: #f55800;
+    font-weight: 400;
+    border: 1px solid white;
+    background-color: white;
+    font-family: 'Poppins', serif;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+  }
+
+  hr {
+    width: 100%;
+    margin-top: 140px;
+  }
+}
