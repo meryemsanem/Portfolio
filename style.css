@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -50,11 +50,11 @@
   }
 
   #form .invalid {
-    color: #f00;
+    color: #f55800;
     font-weight: 400;
     border: 1px solid white;
     background-color: white;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     margin-top: 10px;
     padding: 1px;
     text-align: center;
@@ -129,7 +129,7 @@
 
   .nav-logo {
     margin-left: 24px;
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
@@ -137,11 +137,6 @@
   }
 
   .nav-link:hover {
-    color: #f55800;
-    border: #1c1a19;
-  }
-
-  .logo:hover {
     color: #f55800;
   }
 
@@ -192,7 +187,7 @@
 
   .nav-item {
     margin: 16px 0;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 25px;
     font-weight: 700;
     line-height: 44px;
@@ -209,7 +204,7 @@
     height: 682px;
     padding: 120px 24px 120px 24px;
     background-color: #1c1a19;
-    background-image: url("icons/Illustration.png");
+    background-image: url('icons/Illustration.png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 315px;
@@ -218,7 +213,7 @@
   .alex {
     width: 100%;
     height: 124px;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 56px;
     font-weight: 400;
     line-height: 64px;
@@ -231,7 +226,7 @@
   .soft {
     height: 27px;
     width: 100%;
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -245,7 +240,7 @@
     width: 100%;
     left: 24px;
     top: 295px;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -328,7 +323,7 @@
     height: 83px;
     width: 100%;
     border-radius: nullpx;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 52px;
@@ -356,7 +351,7 @@
     height: 36px;
     width: 100%;
     margin-left: 24px;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -371,7 +366,7 @@
     width: 100%;
     margin-left: 24px;
     margin-top: 12px;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -388,7 +383,7 @@
     margin-left: 30px;
     margin-top: 30px;
     align-items: center;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -442,7 +437,7 @@
   }
 
   .see-project {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
@@ -478,8 +473,26 @@
     margin-right: 24px;
   }
 
+  .background-todo {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .cards-todo {
+    background-image: url('icons/todo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: auto;
+    margin-top: 20px;
+  }
+
   .cards {
-    background-image: url("icons/background.png");
+    background-image: url('icons/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 386px;
@@ -505,15 +518,36 @@
     padding: 8px;
     color: white;
     background-color: #ffffff3d;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
   }
 
+  .lang-tech-todo {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    padding-bottom: 30px;
+    margin-left: 12px;
+    gap: 12px;
+  }
+
+  .tech-used-todo {
+    border: 1px solid #f55800;
+    padding: 8px;
+    color: #f55800;
+    background-color: #ffffff3d;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+
   .card-note {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -525,13 +559,36 @@
     margin-bottom: -10px;
   }
 
+  .card-note-todo {
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #f55800;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 13px;
+    margin-bottom: -10px;
+  }
+
   .card-title {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
     text-align: left;
     color: white;
+    padding-left: 15px;
+  }
+
+  .card-title-todo {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #f55800;
     padding-left: 15px;
   }
 
@@ -542,7 +599,7 @@
     color: white;
     background-color: #ff6b00;
     border: 1px solid #ff6b00;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
@@ -567,7 +624,7 @@
     margin-top: -350px;
     border-radius: nullpx;
     color: white;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -577,7 +634,7 @@
   }
 
   .work-text2 {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -597,7 +654,7 @@
     flex-direction: row;
     gap: 12px;
     text-decoration: none;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -654,7 +711,7 @@
     width: 100%;
     margin-top: 120px;
     background-color: black;
-    background-image: url("icons/illustration2.png");
+    background-image: url('icons/illustration2.png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 370px;
@@ -664,7 +721,7 @@
     height: 79px;
     width: 100%;
     margin-left: 24px;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 72px;
     font-weight: 400;
     line-height: 88px;
@@ -682,7 +739,7 @@
     margin-left: 24px;
     margin-top: 100px;
     color: #f4f5f7;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -734,7 +791,7 @@
     width: 227px;
     left: 42px;
     top: 8px;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
@@ -762,7 +819,7 @@
 
   .information-list {
     list-style: none;
-    font-family: "InaiMathi", serif;
+    font-family: 'InaiMathi', serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
@@ -770,7 +827,7 @@
 
   .list {
     list-style: none;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 43px;
@@ -782,7 +839,7 @@
     width: 100%;
     max-width: fit-content;
     height: 216px;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -818,7 +875,7 @@
   }
 
   input::placeholder {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -832,14 +889,14 @@
     margin-top: 15px;
     border: none;
     background-color: #fbf8f7;
-    background-image: url("icons/text-area-icon.png");
+    background-image: url('icons/text-area-icon.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     resize: none;
   }
 
   textarea::placeholder {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-style: italic;
     font-weight: 400;
@@ -862,7 +919,7 @@
     margin-right: auto;
     margin-top: 24px;
     color: white;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 600;
     border-radius: 3px;
@@ -947,7 +1004,7 @@
   }
 
   #name {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -999,7 +1056,7 @@
     color: black;
     list-style: none;
     border: 1px solid #6f6c6b;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-size: 13px;
     padding: 10px 12px 10px 12px;
     line-height: 16px;
@@ -1011,7 +1068,7 @@
     font-weight: 400;
     line-height: 24px;
     color: #344563;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     text-align: left;
   }
 
@@ -1024,7 +1081,7 @@
     height: 48px;
     cursor: pointer;
     text-align: center;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
@@ -1076,7 +1133,7 @@
   .skills {
     list-style: none;
     border: 1px solid #6f6c6b;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -1086,7 +1143,7 @@
   }
 
   #name {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -1123,7 +1180,7 @@
   }
 
   .project-text {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -1201,7 +1258,7 @@
     cursor: pointer;
     padding: 12px;
     text-align: center;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
@@ -1242,7 +1299,7 @@
     color: white;
     margin-left: 156px;
     margin-top: 30px;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
@@ -1256,7 +1313,7 @@
     text-decoration: none;
     color: white;
     gap: 32px;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -1281,7 +1338,7 @@
     height: 160px;
     padding-left: 143px;
     padding-top: 264px;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 72px;
     font-weight: 400;
     line-height: 82px;
@@ -1290,7 +1347,7 @@
   }
 
   .soft {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 44px;
@@ -1303,7 +1360,7 @@
   }
 
   .text {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -1323,7 +1380,7 @@
   }
 
   .headline2 {
-    background-image: url("icons/desktop-ill1.png");
+    background-image: url('icons/desktop-ill1.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: 45%;
@@ -1347,7 +1404,7 @@
   }
 
   .recent-works {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 52px;
@@ -1387,7 +1444,7 @@
     color: white;
     background-color: #f55800;
     border: 1px solid #f55800;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
@@ -1402,7 +1459,7 @@
   }
 
   .background1 {
-    background-image: url("icons/desk1.png");
+    background-image: url('icons/todo.jpg');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -1421,7 +1478,7 @@
   }
 
   .background2 {
-    background-image: url("icons/desk2.png");
+    background-image: url('icons/desk2.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -1435,7 +1492,7 @@
   }
 
   .background3 {
-    background-image: url("icons/desk3.png");
+    background-image: url('icons/desk3.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -1449,7 +1506,7 @@
   }
 
   .background4 {
-    background-image: url("icons/desk4.png");
+    background-image: url('icons/desk4.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -1463,7 +1520,7 @@
   }
 
   .background5 {
-    background-image: url("icons/desk5.png");
+    background-image: url('icons/desk5.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -1477,7 +1534,7 @@
   }
 
   .background6 {
-    background-image: url("icons/desk6.png");
+    background-image: url('icons/desk6.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -1514,7 +1571,7 @@
   }
 
   .work-title {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 52px;
@@ -1529,7 +1586,7 @@
   }
 
   .inside-text {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -1547,7 +1604,7 @@
     gap: 12px;
     margin-top: 15px;
     align-items: center;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -1625,7 +1682,7 @@
     padding: 8px;
     color: white;
     background-color: #ffffff3d;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
@@ -1633,7 +1690,7 @@
   }
 
   .card-note {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -1643,7 +1700,7 @@
   }
 
   .card-title {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -1654,7 +1711,7 @@
   }
 
   .card-title1 {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -1666,7 +1723,7 @@
   }
 
   .card-note1 {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -1676,7 +1733,7 @@
   }
 
   .see-project {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
@@ -1707,7 +1764,7 @@
   }
 
   .card-title2 {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -1722,7 +1779,7 @@
     height: 1195px;
     background-color: #262626;
     width: 100%;
-    background-image: url("icons/desktop-ill2.png");
+    background-image: url('icons/desktop-ill2.png');
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 90px;
@@ -1730,7 +1787,7 @@
   }
 
   .about-me {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 72px;
     font-weight: 400;
     line-height: 82px;
@@ -1741,7 +1798,7 @@
   }
 
   .about-text {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -1802,7 +1859,7 @@
 
   .information-list {
     list-style: none;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
@@ -1812,7 +1869,7 @@
 
   .list {
     list-style: none;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 43px;
@@ -1831,7 +1888,7 @@
   .contact-text {
     width: 455px;
     height: 256px;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 44px;
@@ -1865,7 +1922,7 @@
   }
 
   input::placeholder {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -1879,14 +1936,14 @@
     margin-top: 15px;
     border: none;
     background-color: #fbf8f7;
-    background-image: url("icons/text-area-icon.png");
+    background-image: url('icons/text-area-icon.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     resize: none;
   }
 
   textarea::placeholder {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-style: italic;
     font-weight: 400;
@@ -1908,7 +1965,7 @@
     margin-right: auto;
     margin-top: 15px;
     color: white;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 600;
     border-radius: 3px;
@@ -1962,11 +2019,11 @@
   }
 
   #form1 .invalid1 {
-    color: red;
+    color: #f55800;
     font-weight: 400;
     border: 1px solid white;
     background-color: white;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     margin-top: 10px;
     padding: 15px;
     text-align: center;
