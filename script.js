@@ -45,13 +45,13 @@ const projectsArr = [
     image: 'icons/port1.png',
   },
   {
-    projectName: 'Multi Post Stories',
+    projectName: 'Leaderboard App',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
-    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
-    linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup.png',
+      'This is a Leaderboard Project with Webpack and ES6. With this app,you can add your score to the board and get the scores on the leaderboard. Built with HTML , CSS and JavaScript.',
+    technology: ['HTML', 'CSS ', 'JavaScript'],
+    linkToLive: 'https://meryemsanem.github.io/leaderboard/dist/',
+    linkToSource: 'https://github.com/meryemsanem/leaderboard',
+    image: 'icons/leaderboardss.png',
   },
   {
     projectName: 'Multi Post Stories',
@@ -99,13 +99,13 @@ const projectsArr = [
     image: 'icons/port1.png',
   },
   {
-    projectName: 'Multi Post Storiess',
+    projectName: 'Leaderboard App',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
-    linkToSource: 'https://github.com/meryemsanem/desktop-version',
-    image: 'icons/popup-desk.png',
+      'This is a Leaderboard Project with Webpack and ES6. With this app,you can add your score to the board and get the scores on the leaderboard. Built with HTML , CSS and JavaScript.',
+    technology: ['HTML', 'CSS', 'JavaScript'],
+    linkToLive: 'https://meryemsanem.github.io/leaderboard/dist/',
+    linkToSource: 'https://github.com/meryemsanem/leaderboard',
+    image: 'icons/leaderboardss.png',
   },
   {
     projectName: 'Multi Post Stories',

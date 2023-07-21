@@ -478,8 +478,25 @@
     margin-right: 24px;
   }
 
+  .background-leaderboard {
+    margin-inline: 24px;
+  }
+
   .cards-todo {
     background-image: url('icons/todo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: auto;
+    margin-top: 20px;
+  }
+
+  .cards-leaderboard {
+    background-image: url('icons/leaderboard.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 386px;
@@ -1478,7 +1495,7 @@
   }
 
   .background2 {
-    background-image: url('icons/desk2.png');
+    background-image: url('icons/leaderboard.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
